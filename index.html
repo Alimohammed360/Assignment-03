@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./cs.css">
+    <script src="./assignment.js"></script>
+    <title>Movie Recommendation App</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 15px;
+        }
+
+        .rank 
+        .yar {
+
+            width: 15%;
+
+        }
+
+        .movie{
+            width: 70%;
+        }
+
+        .rating {
+            width: 100%;
+        }
+
+        select {
+            width: 33.3%;
+            padding: 10px 15px;
+            border-radius: 4px;
+            background-color: #f1f1f1;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Movie Recommendation App</h1>
+    <form>
+        <div class="container">
+            <label for="genre">Genre:</label>
+            <select id="genre" name="genre">
+
+            </select>
+
+            <br><br>
+
+            <label for="year">Year:</label>
+            <select id="year" name="year">
+
+            </select>
+
+            <br><br>
+
+            <label for="lang">Language:</label>
+            <select id="lang" name="lang">
+
+            </select>
+            <br><br>
+        </div>
+        <br><br>
+
+        <label for="rating">Rating:</label>
+        <select class="rating" id="rating" name="rating">
+        
+        </select>
+
+        <br><br>
+
+        <input type="submit" value="Get Recommendations">
+    </form>
+    <div>
+        <section>
+            <table>
+                <tr>
+                    <th class ="renk">Rank</th>
+                    <th class ="name">Movie</th>
+                    <th class ="yar">Year</th>
+                </tr>
+                <tr>
+                    <th class ="rank"></th>
+                    <th class ="movieName"></th>
+                    <th class ="year"></th>
+                </tr>
+            </table>
+        </section>
+    </div>
+</body>
+
+</html>
